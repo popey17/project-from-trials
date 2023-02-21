@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fork Me! FCC: Test Suite Template</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="container">
+  <h1>Hello World, We are software developers!</h1>
+
+  <h1 id="title">Survery Form</h1>
+  <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quibusdam veniam alias est nam nihil
+    ipsa mollitia sapiente consectetur maiores placeat, recusandae illo facilis </p>
+  <form id="survey-form">
+    <label for="name" id="name-label">Name</label>
+    <input type="text" id="name" name="name" placeholder="Username" class="form-control mb-2" required>
+    <label for="email" id="email-label">E-mail</label>
+    <input type="email" id="email" name="email" placeholder="E-mail" class="form-control mb-2" required>
+    <label for="number" id="number-label">Number</label>
+    <input type="number" id="number" min="0" max="100" class="form-control mb-2" placeholder="age">
+    <select name="sex" id="dropdown" class="form-control mb-2">
+      <option value="1">male</option>
+      <option value="1">female</option>
+    </select>
+    <div class="col mb-2">
+      <label for="english">English</label>
+      <input type="radio" id="english" name="language" value="English">
+      <label for="others">Others</label>
+      <input type="radio" name="language" id="others" value="Others">
+    </div>
+    <div class="col mb-2">
+      <label for="utc5">US</label>
+      <input type="checkbox" id="timezone1" name="timezone" value="UTC-5">
+      <label for="utc1">Asia</label>
+      <input type="checkbox" id="timezone2" name="timezone" value="UTC+1">
+    </div>
+    <textarea class="form-control mb-2"></textarea>
+    <input type="submit" id="submit" class="btn btn-primary" class="form-control">
+  </form>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+  <!--
+
+    Hello Camper!
+
+    For now, the test suite only works in Chrome!
+    Please read the README below in the JS Editor before beginning.
+    Feel free to delete this message once you have read it.
+    Good luck and Happy Coding!
+
+    - The freeCodeCamp Team
+
+    -->
+  <script src="js/index.js"></script>
+</body>
+
+</html>
